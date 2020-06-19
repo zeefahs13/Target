@@ -12,14 +12,30 @@ public class Arrays{
 
 
     //O(n) solution
-private void sumOfElements(){
+private long sumOfElements(int[] arr){
+        int sum=0;
+        for(int i:arr){
 
+            sum=sum+i;
 
+        }
 
-
-
+        return (long)sum;
 
 }
+
+
+
+private long sumOfnNaturalNumbers(int[] arr){
+    int sum=0;
+
+    int n=arr.length;
+
+    sum=(n*(n-1)/2);
+
+    return (long)sum;
+}
+
 
 
 
