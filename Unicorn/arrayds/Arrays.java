@@ -12,7 +12,7 @@ public class Arrays{
 
 
     //O(n) solution
-private long sumOfElements(int[] arr){
+protected long sumOfElements(int[] arr){
         int sum=0;
         for(int i:arr){
 
@@ -26,7 +26,7 @@ private long sumOfElements(int[] arr){
 
 
 
-private long sumOfnNaturalNumbers(int[] arr){
+protected long sumOfnNaturalNumbers(int[] arr){
     int sum=0;
 
     int n=arr.length;
@@ -39,15 +39,7 @@ private long sumOfnNaturalNumbers(int[] arr){
 
 
 
-public static class ArraysTest{
 
-
-
-
-
-
-
-}
 
 
 
